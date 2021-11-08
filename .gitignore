@@ -9,6 +9,10 @@
 *.zip
 *.tar.gz
 
+### GRADLE File ###
+/.gradle/
+/build/
+
 ### MAVEN File ###
 mvnw
 mvnw.cmd
