@@ -1,6 +1,6 @@
-package com.example.springgradle.model;
+package com.example.springgradle.global.model;
 
-import com.example.springgradle.type.StatusEnum;
+import com.example.springgradle.global.type.StatusEnum;
 import lombok.Data;
 
 @Data

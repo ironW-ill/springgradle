@@ -1,4 +1,4 @@
-package com.example.springgradle.type;
+package com.example.springgradle.global.type;
 
 public enum StatusEnum {
     OK(200, "OK"),

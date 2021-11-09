@@ -1,6 +1,6 @@
-package com.example.springgradle.controller;
+package com.example.springgradle.domain.unique.controller;
 
-import com.example.springgradle.model.Message;
+import com.example.springgradle.global.model.Message;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
