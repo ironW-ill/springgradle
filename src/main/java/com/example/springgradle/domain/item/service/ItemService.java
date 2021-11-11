@@ -9,14 +9,10 @@ import java.util.Map;
 
 @Service
 public class ItemService {
+    @Autowired
     private ItemRepository itemDao;
 
-    @Autowired
-    public ItemService(ItemRepository itemDao){
-        this.itemDao = itemDao;
-    }
-
-    public List<Map<String,Object>> testSearch(){
-        return itemDao.getItem();
+    public List<Map<String,Object>> itemGet(){
+        return itemDao.itemGet();
     }
 }

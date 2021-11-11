@@ -3,5 +3,14 @@ spring:
     driver-class-name: org.mariadb.jdbc.Driver    # mariadb의 jdbc 드라이버
     username: black55098       # 데이터베이스 사용자 ID
     password: soulston!23      # 데이터베이스 사용자 비밀번호
-    url: jdbc:mariadb://211.47.75.102:3306/black55098      # 데이터베이스 url
-    mapper-locations: classpath:/mybatis/mapper/*.xml
+    url: jdbc:mariadb://211.47.75.102:3306/dbblack55098      # 데이터베이스 url
+
+mybatis:
+  type-aliases-package: com.example.springgradle.domain.item.repository
+  mapper-locations: mybatis/mapper/**/*.xml
+
+logging:
+  level:
+    jdbc.sqlonly: info
+    org.springframework.web: DEBUG
+    com.zaxxer.hikari.HikariDataSource: warn
